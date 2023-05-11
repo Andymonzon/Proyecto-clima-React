@@ -1,0 +1,45 @@
+form {
+    box-sizing: border-box;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 49%;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 5px #444;
+    color: #fff;
+}
+
+form input[type="text"]::placeholder {
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+form input[type="text"]:focus {
+    color: #fff;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 5px #444;
+    color: #fff;
+    font-weight: bold;
+}
+
